@@ -351,7 +351,7 @@ const Ai =()=>{
           <img  src={iconai} alt="#" class="instruction"/>
           <div className="hide">It signifies the motive of the blog to be genarated.</div>
 
-          <input  {...register("subtitle")} style={{width:"97%" }}  type="text" className="form-control"  />
+          <input  {...register("subtitle")} style={{width:"97%" }}  type="text" className="form-control"  required/>
           </div>
           <div className="form-group">
           <label for="exampleInputPassword1">Category</label>
@@ -359,7 +359,7 @@ const Ai =()=>{
           <img  src={iconai} alt="#" class="instruction"/>
           <div className="hide">It is related to both Title and Sub-Title.</div>
 
-          <input  {...register("category")} style={{width:"97%" }}  type="text" className="form-control" required />
+          <input  {...register("category")} style={{width:"97%" }}  type="text" className="form-control"required />
           </div>
           <div className="form-group">
           <label for="exampleInputPassword1">Sub-Category</label>
@@ -375,7 +375,7 @@ const Ai =()=>{
           <img  src={iconai} alt="#" class="instruction"/>
           <div className="hide">Keywords are for the words that are related to the title, It is comma separated.</div>
 
-          <input  {...register("keyword")} style={{width:"97%" }}  type="text" className="form-control" required/>
+          <input  {...register("keyword")} style={{width:"97%" }}  type="text" className="form-control"required />
           </div>
           <div className="form-group">
           <label for="exampleInputPassword1">Abstract</label>
