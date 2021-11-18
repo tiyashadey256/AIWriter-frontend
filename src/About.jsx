@@ -21,7 +21,7 @@ const About =()=>{
 		<span className="title">WHAT IS IEM AI WRITER?</span>
 		{/* <span className="sub-title">It is your AI-Powered Assistant to write plagiarism-free and grammatically correct content for your website, Articles, Blogs, and so on.</span> */}
 		<p className="sub-title1">It is your AI-Powered Assistant to write plagiarism-free and grammatically correct content for your website, Articles, Blogs, and so on.</p>
-		<p className="sub-title2">Disclaimer :If you are using our service to generate an AI blog, Please refine it a little bit.</p>
+		<p className="sub-title2">Disclaimer : If you are using our service to generate an AI blog, Please refine it a little bit.</p>
     {/* <a href="" className="btn2">Know More</a> */}
 		</td>
 		</ScrollAnimation>
