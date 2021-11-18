@@ -145,6 +145,14 @@ color: white;
     transform: translateY(-10px);
   }
 }
+
+@media only screen and (max-width: 720px) {
+  #animation9{
+   position: relative;
+   display: flex;
+   right: 10%;
+  }
+}
 /* home-- about */
 
 .title{
