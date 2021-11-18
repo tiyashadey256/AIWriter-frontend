@@ -354,20 +354,20 @@ const Ai =()=>{
           <input  {...register("subtitle")} style={{width:"97%" }}  type="text" className="form-control"  />
           </div>
           <div className="form-group">
-          <label for="exampleInputPassword1">Catagory</label>
+          <label for="exampleInputPassword1">Category</label>
 
           <img  src={iconai} alt="#" class="instruction"/>
           <div className="hide">It is related to both Title and Sub-Title.</div>
 
-          <input  {...register("category")} style={{width:"97%" }}  type="text" className="form-control" />
+          <input  {...register("category")} style={{width:"97%" }}  type="text" className="form-control" required />
           </div>
           <div className="form-group">
-          <label for="exampleInputPassword1">Sub-Catagory</label>
+          <label for="exampleInputPassword1">Sub-Category</label>
 
           <img  src={iconai} alt="#" class="instruction"/>
           <div className="hide">It has a relation with Category, establishing the Sementic Search Capabilities of the Generation.</div>
 
-          <input  {...register("subcategory")} style={{width:"97%" }}  type="text" className="form-control" />
+          <input  {...register("subcategory")} style={{width:"97%" }}  type="text" className="form-control" required/>
           </div>
           <div className="form-group">
           <label for="exampleInputPassword1">Keyword</label>
@@ -375,7 +375,7 @@ const Ai =()=>{
           <img  src={iconai} alt="#" class="instruction"/>
           <div className="hide">Keywords are for the words that are related to the title, It is comma separated.</div>
 
-          <input  {...register("keyword")} style={{width:"97%" }}  type="text" className="form-control" />
+          <input  {...register("keyword")} style={{width:"97%" }}  type="text" className="form-control" required/>
           </div>
           <div className="form-group">
           <label for="exampleInputPassword1">Abstract</label>
@@ -383,7 +383,7 @@ const Ai =()=>{
           <img  src={iconai} alt="#" class="instruction"/>
           <div className="hide">Abstract is the main part, Justifiable with 100-150 Characters, that must be provided by the user, To govern the randomness of our Generated Blog.</div>
 
-          <textarea  {...register("abstract")} style={{width:"97%", overflow: "scroll" }}  type="text" className="form-control" />
+          <textarea  {...register("abstract")} style={{width:"97%", overflow: "scroll" }}  type="text" className="form-control" required/>
           </div>
           <div className="form-group">
           <label for="exampleInputPassword1">Email</label>
@@ -391,7 +391,7 @@ const Ai =()=>{
           <img  src={iconai} alt="#" class="instruction"/>
           <div className="hide">Enter your E-Mail ID to get the generated required Blog as output in your E-Mail.</div>
 
-          <input  {...register("email")} style={{width:"97%"  }}  type="email" className="form-control" />
+          <input  {...register("email")} style={{width:"97%"  }}  type="email" className="form-control" required/>
           </div>
 
           <div className="form-group2">
