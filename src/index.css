@@ -4,7 +4,14 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-  font-family: muli;
+  box-sizing: border-box;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Cabin', sans-serif;
+  font-family: 'Questrial', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: 900px;
+ 
 }
 /* ==========================================================================
 #background
@@ -16,6 +23,7 @@
 ========================================================================== */
 .navbar {
   background-color: #fff !important;
+ font-weight: bold;
 }
 .navlogo{
   height: 15%;
